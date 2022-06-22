@@ -70,7 +70,7 @@ def render():
             rbg_colour = tuple(int(hex_colour[i:i + 2], 16) for i in (0, 2, 4))  # Hex code to RBG
             # pygame.draw.circle(display_screen, rbg_colour, (x*scale_factor, y*scale_factor), pixel_size*scale_factor)
             pygame.draw.rect(display_screen, rbg_colour,
-                             (x * scale_factor, y * scale_factor, pixel_size * scale_factxor, pixel_size * scale_factor))
+                             (x * scale_factor, y * scale_factor, pixel_size * scale_factor, pixel_size * scale_factor))
 
 
 def setup():
